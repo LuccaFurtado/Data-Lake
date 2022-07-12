@@ -1,7 +1,10 @@
 # Data-Lake
 
-Streaming de dados entre as camadas raw-bronze e bronze-silver no Databricks usando deltalake.
-![alt text](https://github.com/LuccaFurtado/Data-Lake/blob/main/spark-streamin.jpg)
+Streaming de dados entre as camadas de um Data Lake no Databricks com deltalake.
+
+Esquema do projeto:
+
+![alt text](https://github.com/LuccaFurtado/images/blob/main/spark-streaming(2).png)
 
 O resultado pode ser visto a seguir:
 
