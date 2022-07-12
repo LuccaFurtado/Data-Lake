@@ -3,14 +3,15 @@
 Streaming de dados entre as camadas de um Data Lake no Databricks com deltalake.
 
 Esquema do projeto:
-
-![alt text](https://github.com/LuccaFurtado/images/blob/main/spark-streaming(2).png)
+<p align="center">
+<img src="https://github.com/LuccaFurtado/images/blob/main/spark-streaming(2).png" width="900" height="500">
+</p>
 
 O resultado pode ser visto a seguir:
 
 ![alt text](https://github.com/LuccaFurtado/Data-Lake/blob/main/streaming-databricks.jpg)
 
-Na imagem da esquerda podemos ver o streaming dos dados da camada Raw para a camada Bronze. Já na imagem da direita pode ser visto o streaming dos dados entre a camada Bronze e a camada Silver.
+Na imagem da esquerda podemos ver o streaming dos dados da camada Raw para a camada Bronze. Já na imagem da direita, o streaming dos dados entre a camada Bronze e a camada Silver pode ser visualizado.
 
 Ao dar o zoom nas imagens, mais precisamente nos eixos dos gráficos, é possível ver o intervalo de tempo de cada operação e que há um fluxo de dados acontecendo entre as respectivas camadas.
 
