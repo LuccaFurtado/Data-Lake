@@ -17,4 +17,10 @@ Ao dar o zoom nas imagens, mais precisamente nos eixos dos gráficos, é possív
 
 O código para a realização do streaming e algumas observações podem ser vistas nos seguintes notebooks: [Streaming Raw/Bronze](https://github.com/LuccaFurtado/Data-Lake/blob/main/ingest_table_final_cleaned.ipynb) e [Streaming Bronze/Silver](https://github.com/LuccaFurtado/Data-Lake/blob/main/silver_ingest.ipynb)
 
-Outros arquivos utilizados foram os seguintes scripts: [Script para gerar dados semi aleatórios incrementais](https://github.com/LuccaFurtado/Data-Lake/blob/main/generate_incremental.py) cuja utilidade era inserir dados para visualização da ingestão dos dados e das operações de Insert, Update e Delete no processo de streaming entre a camada Raw e Bronze, [Script para carregar os dados no S3](https://github.com/LuccaFurtado/Data-Lake/blob/main/load_incremental.py) e [Script 'utils' com as funções utilizadas no script anterior](https://github.com/LuccaFurtado/Data-Lake/blob/main/utils.incremental.py).
+Outros arquivos utilizados foram os seguintes scripts:
+
+[Script para gerar dados semi aleatórios incrementais](https://github.com/LuccaFurtado/Data-Lake/blob/main/generate_incremental.py) -cuja utilidade era inserir dados para visualização da ingestão dos dados e das operações de Insert, Update e Delete no processo de streaming entre a camada Raw e Bronze-
+
+[Script para carregar os dados no S3](https://github.com/LuccaFurtado/Data-Lake/blob/main/load_incremental.py) 
+
+[Script 'utils' com as funções utilizadas no script anterior](https://github.com/LuccaFurtado/Data-Lake/blob/main/utils.incremental.py).
